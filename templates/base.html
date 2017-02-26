@@ -7,13 +7,23 @@
         <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">home</a></li>
-                <li><a href="/blog">all posts</a></li>
-                <li><a href="/blog/newpost">new post</a></li>
-            </ul>
-        </nav>
+      <nav>
+          <ul>
+              <li><a href="/login">Login</a></li>
+              <li><a href="/logout">Logout</a></li>
+          </ul>
+      </nav>
+
+      <hr></hr>
+
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">All Posts</a></li>
+            <li><a href="/blog/newpost">New Post</a></li>
+        </ul>
+      </nav>
+
         {% block content %}
         {% endblock %}
     </body>
